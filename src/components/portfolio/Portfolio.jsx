@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/Van-Go.png'
 import IMG2 from '../../assets/TinyDJ_3D.png'
-import IMG3 from '../../assets/Van-Go.png'
+import IMG3 from '../../assets/Mandelbrot_Generator.png'
 import IMG4 from '../../assets/Van-Go.png'
 
 const data = [
@@ -21,7 +21,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Van-Go',
+    title: 'Multi-Threaded Mandelbrot Generator',
     descriptor: 'A puzzle platformer inspired by Vincent Van Gogh\'s Starry Night, created in unity using C#' 
   },
   {
@@ -49,7 +49,7 @@ const Portfolio = () => {
             </div>
             <h3>{title}</h3>
             <div className="portfolio__item-cta">
-              <h5>{descriptor}</h5>
+              <h4>{descriptor}</h4>
             </div>
           </article>
             )
