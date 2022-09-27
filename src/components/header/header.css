@@ -1,7 +1,9 @@
 header {
-    height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
+    /* height: 100%; */
+    /* display: flex; */
+    padding-top: 5rem;
+    /* overflow:scroll; */
+    object-fit: contain;
 }
 
 .header__container {
@@ -44,7 +46,7 @@ header {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 25rem;
-    position: absolute;
+    position: inherit;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 4rem;
@@ -54,17 +56,17 @@ header {
 }
 
 /* medium devices */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     header {
         height: 68vh;
     }
 }
 
 /* small devices */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     header {
         height: 100vh;
     }
 
     
-}
+} */ 

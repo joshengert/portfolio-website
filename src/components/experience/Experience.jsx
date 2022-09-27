@@ -86,12 +86,13 @@ const Experience = () => {
               </div>
             </article>
             <article className='experience__details'>
-              <DiScrum className='experience__details-icon'/>
+              <BiMicrochip className='experience__details-icon'/>
               <div>
-                <h4>Scrum Methodology</h4>
-                <small className='text-light'>Competent</small>
+                <h4>Embedded Systems</h4>
+                <small className='text-light'>Embedded Systems Essentials with Arm Professional Certificate</small>
               </div>
             </article>
+ 
             <article className='experience__details'>
               <GiOrange className='experience__details-icon'/>
               <div>
@@ -103,23 +104,24 @@ const Experience = () => {
               <div className='experience__detals-icon__group'><SiOpengl className='experience__details-icon'/><SiUnrealengine className='experience__details-icon'/><SiUnity className='experience__details-icon'/></div>
               <div>
                 <h4>3D Engines/Libraries</h4>
-                <small className='text-light'>Beginner</small>
+                <small className='text-light'>Competent</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <DiScrum className='experience__details-icon'/>
+              <div>
+                <h4>Scrum Methodology</h4>
+                <small className='text-light'>Competent</small>
               </div>
             </article>
             <article className='experience__details'>
               <SiReact className='experience__details-icon'/>
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Small Project Completed</small>
+                <small className='text-light'>Beginner</small>
               </div>
             </article>
-            <article className='experience__details'>
-              <BiMicrochip className='experience__details-icon'/>
-              <div>
-                <h4>Embedded Systems</h4>
-                <small className='text-light'>Small Project Completed</small>
-              </div>
-            </article>
+
 
           </div>
         </div>
