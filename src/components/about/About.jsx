@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image"/>
+            <img src={ME} alt="About"/>
           </div>
         </div>
 
@@ -37,7 +37,7 @@ const About = () => {
           </div>
 
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore officiis fugiat, obcaecati expedita earum deleniti, numquam harum veniam, esse cum unde? Omnis harum corrupti doloribus temporibus eius facere repudiandae explicabo?
+            I am a highly motivated junior level developer aiming to gain my first professional role. My passion lies within the creative industries, particularly music, having completed projects that revolve around that space. I complete projects and solve problems efficiently whilst maintaining simplicity and without sacrificing quality.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
