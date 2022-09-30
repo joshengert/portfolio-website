@@ -10,25 +10,29 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Van-Go',
-    descriptor: 'A puzzle platformer inspired by Vincent Van Gogh\'s Starry Night, created in unity using C#' 
+    descriptor: 'A puzzle platformer inspired by Vincent Van Gogh\'s Starry Night, created in unity using C#' ,
+    link: '#portfolio'
   },
   {
     id: 2,
     image: IMG2,
     title: 'TinyDJ',
-    descriptor: 'TinyDJ is a credit card sized DJ controller designed for use with industry standard software.  ' /*Required knowledge of microcontrollers and basic electical engineering principles'*/
+    descriptor: 'TinyDJ is a credit card sized DJ controller designed for use with industry standard software.',
+    link: '#portfolio'
   },
   {
     id: 3,
     image: IMG3,
     title: 'Multi-Threaded Mandelbrot Generator',
-    descriptor: 'A puzzle platformer inspired by Vincent Van Gogh\'s Starry Night, created in unity using C#' 
+    descriptor: 'A mandelbrot generator that runs on a number of threads specified by the user, made in OpenGL.',
+    link: '#portfolio'
   },
   {
     id: 4,
     image: IMG4,
     title: 'Van-Go',
-    descriptor: 'A puzzle platformer inspired by Vincent Van Gogh\'s Starry Night, created in unity using C#' 
+    descriptor: 'A puzzle platformer inspired by Vincent Van Gogh\'s Starry Night, created in unity using C#', 
+    link: '#portfolio'
   },
 ]
 
@@ -41,17 +45,19 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, descriptor}) => {
+          data.map(({id, image, title, descriptor, link}) => {
             return (
+            <a href={link}>
               <article key={id} className='portfolio__item'>
-            <div className='portfolio__item-image'>
-              <img src={image} alt={title} />
-            </div>
-            <h3>{title}</h3>
-            <div className="portfolio__item-cta">
-              <h4>{descriptor}</h4>
-            </div>
-          </article>
+                <div className='portfolio__item-image'>
+                  <img src={image} alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <div className="portfolio__item-cta">
+                  <h4>{descriptor}</h4>
+                </div>
+              </article>
+              </a>
             )
           }) 
         } 
