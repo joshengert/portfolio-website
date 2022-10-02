@@ -85,13 +85,15 @@ const Experience = () => {
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experience__details'>
-              <BiMicrochip className='experience__details-icon'/>
-              <div>
-                <h4>Embedded Systems</h4>
-                <small className='text-light'>Embedded Systems Essentials with Arm Professional Certificate</small>
-              </div>
-            </article>
+            <a href="https://courses.edx.org/certificates/a95cacc81c5649dab88eb81fe0f3e2e2" target="_blank" rel='noreferrer'>
+              <article className='experience__details'>
+                <BiMicrochip className='experience__details-icon'/>
+                <div>
+                  <h4>Embedded Systems</h4>
+                  <small className='text-light'>Embedded Systems Essentials with Arm Professional Certificate</small>
+                </div>
+              </article>
+            </a>
  
             <article className='experience__details'>
               <GiOrange className='experience__details-icon'/>

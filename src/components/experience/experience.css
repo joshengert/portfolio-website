@@ -34,6 +34,9 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
 }
+.experience__content a {
+    color: var(--color-primary-variant);
+}
 
 .experience__details {
     
