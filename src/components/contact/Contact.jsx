@@ -11,17 +11,21 @@ const Contact = () => {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          <article className="contact__option" onClick={(e) => {
+                                              e.preventDefault();
+                                              window.open('mailto:joshengert@hotmail.com', '_blank');}}>
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>joshengert@hotmail.com</h5>
-            <a href="mailto:joshengert@hotmail.com" target="_blank" rel="noreferrer">Send a Message</a>
+            <a>Send a Message</a>
           </article>
-          <article className="contact__option">
+          <article className="contact__option" onClick={(e) => {
+                                                e.preventDefault();
+                                                window.open('https://m.me/joshengert', '_blank');}}>
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>Josh Engert</h5>
-            <a href="https://m.me/joshengert" target="_blank" rel="noreferrer">Send a Message</a>
+            <a>Send a Message</a>
           </article>
         </div>
         {/*end of contact options*/}
