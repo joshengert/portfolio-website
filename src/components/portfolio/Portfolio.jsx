@@ -3,14 +3,14 @@ import './portfolio.css'
 import IMG1 from '../../assets/Van-Go.png'
 import IMG2 from '../../assets/TinyDJ_3D.png'
 import IMG3 from '../../assets/Mandelbrot_Generator.png'
-import IMG4 from '../../assets/Van-Go.png'
+import IMG4 from '../../assets/3D_Engine.png'
 
 const data = [
   {
     id: 1,
     image: IMG1,
     title: 'Van-Go',
-    descriptor: 'A puzzle platformer inspired by Vincent Van Gogh\'s Starry Night, created in unity using C#' ,
+    descriptor: 'A puzzle platformer inspired by Vincent Van Gogh\'s Starry Night, created in unity using C#.' ,
     link: '#portfolio'
   },
   {
@@ -24,14 +24,14 @@ const data = [
     id: 3,
     image: IMG3,
     title: 'Multi-Threaded Mandelbrot Generator',
-    descriptor: 'A mandelbrot generator that runs on a number of threads specified by the user, made in OpenGL.',
+    descriptor: 'A mandelbrot generator that runs on a number of threads specified by the user.',
     link: '#portfolio'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Van-Go',
-    descriptor: 'A puzzle platformer inspired by Vincent Van Gogh\'s Starry Night, created in unity using C#', 
+    title: '3D Engine',
+    descriptor: 'An OpenGL 3D engine with lighting effects, fog and transparency, made with C++.', 
     link: '#portfolio'
   },
 ]
