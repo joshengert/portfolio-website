@@ -11,28 +11,32 @@ const data = [
     image: IMG1,
     title: 'Van-Go',
     descriptor: 'A puzzle platformer inspired by Vincent Van Gogh\'s Starry Night, created in unity using C#.' ,
-    link: '#portfolio'
+    link: '#portfolio',
+    target: '_self'
   },
   {
     id: 2,
     image: IMG2,
     title: 'TinyDJ',
     descriptor: 'TinyDJ is a credit card sized DJ controller designed for use with industry standard software.',
-    link: '#portfolio'
+    link: "https://github.com/joshengert/tinydj",
+    target: '_blank'
   },
   {
     id: 3,
     image: IMG3,
     title: 'Multi-Threaded Mandelbrot Generator',
     descriptor: 'A mandelbrot generator that runs on a number of threads specified by the user.',
-    link: '#portfolio'
+    link: '#portfolio',
+    target: '_self'
   },
   {
     id: 4,
     image: IMG4,
     title: '3D Engine',
     descriptor: 'An OpenGL 3D engine with lighting effects, fog and transparency, made with C++.', 
-    link: '#portfolio'
+    link: '#portfolio',
+    target: '_self'
   },
 ]
 
@@ -45,9 +49,9 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, descriptor, link}) => {
+          data.map(({id, image, title, descriptor, link, target}) => {
             return (
-            <a href={link}>
+            <a href={link} target={target}>
               <article key={id} className='portfolio__item'>
                 <div className='portfolio__item-image'>
                   <img src={image} alt={title} />

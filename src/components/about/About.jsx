@@ -37,7 +37,7 @@ const About = () => {
           </div>
 
           <p>
-            I am a highly motivated junior level developer aiming to gain my first professional role. My passion lies within the creative industries, particularly music, having completed projects that revolve around that space. I complete projects and solve problems efficiently whilst maintaining simplicity and without sacrificing quality.
+            I am a highly motivated junior IT professional aiming to expand my skillset. Currently, I am the System Administrator at ACG Parnell College. My passion lies within the creative industries, particularly music, having completed projects that revolve around that space. I solve problems efficiently whilst maintaining simplicity and without sacrificing quality. 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
