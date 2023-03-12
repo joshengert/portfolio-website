@@ -22,7 +22,7 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <AiOutlineDesktop className='about__icon'/>
-              <h5>Desktop Development</h5>
+              <h5>SysAdmin</h5>
             </article>
 
             <article className="about__card">
