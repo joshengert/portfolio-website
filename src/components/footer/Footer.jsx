@@ -13,12 +13,6 @@ const Footer = () => {
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-
-      {/* <div className="footer__copyright">
-        <small>
-          &copy; Josh Engert. All Rights Reserved.
-        </small> 
-  </div>*/}
     </footer>
   )
 }

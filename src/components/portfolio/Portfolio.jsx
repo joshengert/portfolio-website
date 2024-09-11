@@ -25,7 +25,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Multi-Threaded Mandelbrot Generator',
+    title: 'Mandelbrot Generator',
     descriptor: 'A mandelbrot generator that runs on a number of threads specified by the user.',
     link: '#portfolio',
     target: '_self'
