@@ -1,9 +1,9 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/mixing.jpg'
+import ME from '../../assets/sitting.jpg'
 import {AiOutlineDesktop} from 'react-icons/ai'
-import {SiArduino} from 'react-icons/si'
-import {BsController} from 'react-icons/bs'
+import { FaNetworkWired } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -21,23 +21,23 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
+              <FaNetworkWired className='about__icon'/>
+              <h5>Networking</h5>
+            </article>
+
+            <article className="about__card">
               <AiOutlineDesktop className='about__icon'/>
-              <h5>SysAdmin</h5>
+              <h5>Systems</h5>
             </article>
 
             <article className="about__card">
-              <SiArduino className='about__icon'/>
-              <h5>Embedded Systems</h5>
-            </article>
-
-            <article className="about__card">
-              <BsController className='about__icon'/>
-              <h5>Game Development</h5>
+              <FaLaptopCode className='about__icon'/>
+              <h5>Development</h5>
             </article>
           </div>
 
           <p>
-            I am a highly motivated junior IT professional aiming to expand my skillset. Currently, I am the System Administrator at ACG Parnell College. My passion lies within the creative industries, particularly music, having completed projects that revolve around that space. I solve problems efficiently whilst maintaining simplicity and without sacrificing quality. 
+          Driven and results-oriented Network and Systems Engineer with two years of experience, seeking to leverage my expertise in network infrastructure, systems management, and software development to contribute to innovative and impactful solutions at the intermediate level in either network engineering or software development roles.          
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
