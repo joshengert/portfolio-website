@@ -12,11 +12,11 @@
 }
 
 :root {
-    --color-bg: #2C302E;
-    --color-bg-variant: #474A48;
-    --color-primary: #909590;
-    --color-primary-variant: #9AE19D;
-    --color-white: #ABE6AE;
+    --color-bg: #444545;
+    --color-bg-variant: #6C9A8B;
+    --color-primary: #b3DEC1;
+    --color-primary-variant: #F7F9F7;
+    --color-white: #FFFEFF;
     --color-light: #fff;
 
     --transition: all 400ms ease;
@@ -45,7 +45,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/always-grey.png);
+    background-image: url(../src/assets/cartographer.png);
     background-attachment: fixed;
 }
 
