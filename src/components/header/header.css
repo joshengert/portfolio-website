@@ -13,6 +13,10 @@ header {
 
 }
 
+h5, h1 {
+    color: --color-primary;
+}
+
 /* CTA */
 
 .cta {
@@ -43,30 +47,28 @@ header {
 
 /* me */
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    border-radius: 2rem;
     width: 22rem;
-    height: 25rem;
+    height: 32rem;
     position: inherit;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 4rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* medium devices */
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     header {
         height: 68vh;
     }
 }
 
 /* small devices */
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     header {
         height: 100vh;
     }
 
     
-} */ 
+}
